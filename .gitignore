@@ -1,0 +1,33 @@
+# Ignorar entornos virtuales
+venv/
+.venv/
+env/
+.env/
+
+# Ignorar archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.Python/
+
+# Ignorar archivos específicos de VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# Ignorar archivos de Jupyter Notebook
+.ipynb_checkpoints/ # Puntos de control de Jupyter Notebooks
+*.ipynb-filter # Archivos temporales de Jupyter
+
+# Ignorar archivos de registro
+*.log
+log/
+
+# Ignorar archivos de datos sensibles o muy grandes (si los tuvieras)
+# NO applies a train.csv y test.csv del Titanic porque son pequeños y esenciales para el análisis.
+# En proyectos futuros, si tienes un dataset de GBs, o datos privados:
+# data/
+# *.db
+# config.ini
+# .env
